@@ -1,0 +1,451 @@
+/*
+ * Css create by wil
+ *
+ *
+ * color themes:
+ *
+ *  primary: #77777
+ *  secondary: #00000
+ *
+ ****************/
+
+
+
+/* Text-color */
+/* ************************************************** */
+.txt-green {
+    color: green
+}
+
+.txt-red {
+    color: red
+}
+
+.txt-blue {
+    color: blue
+}
+
+.txt-yellow {
+    color: yellow
+}
+
+.txt-purple {
+    color: rgba(128, 0, 128, 1)
+}
+
+.txt-cyan {
+    color: cyan
+}
+
+.txt-white {
+    color: white
+}
+
+/* ************************************************** */
+/* /Text-color */
+
+
+/* Border */
+/* ************************************************** */
+.br-green {
+    border: solid 2px green
+}
+
+.br-red {
+    border: solid 2px red
+}
+
+.br-blue {
+    border: solid 2px blue
+}
+
+.br-yellow {
+    border: solid 2px yellow
+}
+
+.br-purple {
+    border: solid 2px rgba(128, 0, 128, 1)
+}
+
+.br-cyan {
+    border: solid 2px cyan
+}
+
+.br-white {
+    border: solid 2px white
+}
+
+.br-black {
+    border: solid 2px black
+}
+
+/* ************************************************** */
+/* /Border */
+
+
+/* Background */
+/* ************************************************** */
+.bg-green {
+    background-color: green
+}
+
+.bg-red {
+    background-color: red
+}
+
+.bg-blue {
+    background-color: blue
+}
+
+.bg-yellow {
+    background-color: yellow
+}
+
+.bg-purple {
+    background-color: rgba(128, 0, 128, 0.8)
+}
+
+.bg-cyan {
+    background-color: cyan
+}
+
+.bg-pink {
+    background-color: pink
+}
+
+/* ************************************************** */
+/* /Background */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Body */
+/* ************************************************** */
+/* Body (default)*/
+html,
+body {
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(77, 74, 74);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+}
+
+header {
+    height: 100%;
+}
+
+section,
+footer {
+    margin: 2px;
+    padding: 2px;
+    height: 100%;
+    }
+
+
+form {
+    height: auto;
+    width: 500px;
+}
+
+/* /Body (default)*/
+
+
+a {
+    margin: 0;
+    text-decoration: none;
+    /* enleve la barre dessous le texte du lien*/
+    color: inherit;
+    /* inherit enlève le style dpar défaut du paragraphe et prens celui du parent*/
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.cont {
+    min-height: 110vh;
+}
+
+/* Body */
+
+
+/* Flex */
+/* ************************************************** */
+
+/* ******************** */
+/* Flex-Direction */
+/* rangement par ligne  */
+.cont-row {
+    display: flex;
+    flex-direction: row
+}
+
+.cont-row-reverse {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+/* rangement par colonne */
+.cont-column {
+    display: flex;
+    flex-direction: column
+}
+
+.cont-column-reverse {
+    display: flex;
+    flex-direction: column-reverse
+}
+
+/* /Flex-Direction */
+/* ******************** */
+
+
+
+
+/* ************************************************** */
+/* /Flex */
+
+
+
+/* Flex-Wrap */
+.cont-nowrap {
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.cont-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-;
+}
+
+/* /Flex-Wrap */
+
+
+
+/* Flex-Flow */
+.cont-flow1 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cont-flow2 {
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+}
+
+/* /Flex-Flow */
+
+
+/* Justify-content */
+.cont-flx-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cont-flx-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cont-flx-center {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-flx-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-flx-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* /Justify-content */
+
+/* align-items */
+.cont-al-start {
+    align-items: flex-start;
+}
+
+.cont-al-end {
+    align-items: flex-end;
+}
+
+.cont-al-center {
+    align-items: center;
+    }
+
+.cont-al-baseline {
+    align-items: baseline;
+}
+
+.cont-al-stretch {
+    align-items: stretch;
+}
+
+/* /align-items */
+
+
+
+/* align-content */
+.cont-al-ctnt-start {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.cont-al-ctnt-end {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.cont-al-ctnt-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.cont-al-ctnt-space-between {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.cont-al-ctnt-space-around {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+/* /align-content */
+
+
+
+/*  Navbar */
+.navbar {
+    /* position: fixed; */
+    margin: 2px;
+    padding: 2px;
+}
+
+.title-nav {
+    margin: 0 15px;
+}
+
+/* / Navbar */
+
+
+/* Item */
+
+
+.nav-item {
+    padding: 5px;
+    margin: 5px;
+}
+
+.item {
+    padding: 5px;
+    margin: 5px;
+}
+
+.item-1 {
+    min-width: 150px;
+    width: 20%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.item-2 {
+    min-width: 150px;
+    width: 20%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.item-3 {
+    min-width: 150px;
+    width: 20%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.item-4 {
+    min-width: 150px;
+    width: 20%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.item-5 {
+    min-width: 150px;
+    width: 20%;
+    height: auto;
+    margin: 5px;
+}
+
+
+/* Buttton */
+.btn {
+    padding: 5px;
+    margin: 5px
+}
+
+/* /Buttton */
+
+
+/* Text */
+.txt-center {
+    text-align: center;
+}
+
+/* Welcome */
+.welcome {
+    margin: 2px;
+    padding: 2px;
+    height: 100%;
+}
+
+/* /Welcome */
+
+.ratio {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
