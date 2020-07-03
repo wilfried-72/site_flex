@@ -584,6 +584,11 @@ li {
         padding: 5px;
     }
 
+    .item-logo {
+        width: 1%;
+        margin: 5px;
+        padding: 5px;
+    }
 }
 
 
