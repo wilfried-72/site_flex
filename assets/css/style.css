@@ -511,40 +511,49 @@ li {
  *
  *  
  */
-@media screen and (max-width: 650) {
 
 
-    .cadre {
-        min-width: 45%;
-        width: 10%;
+
+@media screen and (min-width: 650) {
+
+    /* .cadre {
+        min-width: 20%;
+        width:10%;
         height: auto;
         margin: 5px;
         padding: 5px;
+    } */
+
+    .item {
+        min-width: 20%;
+        width: 30%;
+        height: auto;
+        padding: 5px;
+        margin: 5px;
     }
-    
 
     .item-1 {
-        min-width: 45%;
-        width: 20%;
+        min-width: 20%;
+        width: 30%;
         height: auto;
         margin: 5px;
         padding: 5px;
     }
 
     .item-2 {
-        min-width: 45%;
-        width: 20%;
+        min-width: 20%;
+        width: 30%;
         height: auto;
         margin: 5px;
         padding: 5px;
     }
 
     .item-3 {
-        min-width: 45%;
-        width: 20%;
+        min-width:20%;
+        width: 30%;
         height: auto;
         margin: 5px;
         padding: 5px;
     }
  
-}
+} 
