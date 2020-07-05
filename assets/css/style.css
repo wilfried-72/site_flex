@@ -420,7 +420,7 @@ li {
 
 .item-1 {
     min-width: 150px;
-    width: 20%;
+    width: 30%;
     height: auto;
     margin: 5px;
     padding: 5px;
@@ -428,7 +428,7 @@ li {
 
 .item-2 {
     min-width: 150px;
-    width: 20%;
+    width: 30%;
     height: auto;
     margin: 5px;
     padding: 5px;
@@ -436,28 +436,11 @@ li {
 
 .item-3 {
     min-width: 150px;
-    width: 20%;
+    width: 30%;
     height: auto;
     margin: 5px;
     padding: 5px;
 }
-
-.item-4 {
-    min-width: 150px;
-    width: 20%;
-    height: auto;
-    margin: 5px;
-    padding: 5px;
-}
-
-.item-5 {
-    min-width: 150px;
-    width: 20%;
-    height: auto;
-    margin: 5px;
-    padding: 5px;
-}
-
 
 .item-logo {
     width: 15%;
@@ -528,12 +511,12 @@ li {
  *
  *  
  */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 650) {
 
 
     .cadre {
-        min-width: 90%;
-        width: 20%;
+        min-width: 45%;
+        width: 10%;
         height: auto;
         margin: 5px;
         padding: 5px;
@@ -541,7 +524,7 @@ li {
     
 
     .item-1 {
-        min-width: 90%;
+        min-width: 45%;
         width: 20%;
         height: auto;
         margin: 5px;
@@ -563,20 +546,5 @@ li {
         margin: 5px;
         padding: 5px;
     }
-
-    .item-4 {
-        min-width: 60%;
-        width: 20%;
-        height: auto;
-        margin: 5px;
-        padding: 5px;
-    }
-
-    .item-5 {
-        min-width: 50%;
-        width: auto;
-        height: auto;
-        margin: 5px;
-        padding: 5px;
-    } 
+ 
 }
