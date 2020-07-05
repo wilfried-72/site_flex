@@ -126,7 +126,7 @@ header {
     height: auto;
 
     background-image: linear-gradient(rgba(44, 0, 242, 0.4),
-            rgba(7, 230, 211, 0.6)), url(/site_flex/assets/images/header.jpg);
+            rgba(7, 230, 211, 0.6)), url(../images/header.jpg);
 
     background-position: center;
     /* adapte l'image à l'ecran */
@@ -528,7 +528,17 @@ li {
  *
  *  
  */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 900px) {
+
+
+    .cadre {
+        min-width: 90%;
+        width: 20%;
+        height: auto;
+        margin: 5px;
+        padding: 5px;
+    }
+    
 
     .item-1 {
         min-width: 90%;
