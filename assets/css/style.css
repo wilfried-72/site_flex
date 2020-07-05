@@ -524,7 +524,7 @@ li {
     }
 
     .item-2 {
-        min-width: 45%;
+        min-width: 90%;
         width: 20%;
         height: auto;
         margin: 5px;
@@ -532,7 +532,7 @@ li {
     }
 
     .item-3 {
-        min-width: 45%;
+        min-width: 90%;
         width: 20%;
         height: auto;
         margin: 5px;
