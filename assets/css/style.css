@@ -515,7 +515,16 @@ li {
 
 
  @media screen and (max-width: 640px) {
-    .item-1 {
+
+    .item {
+        min-width: 30%;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        margin: 5px;
+    }
+
+        .item-1 {
         min-width: 40%;
         width: 100%;
         height: auto;
